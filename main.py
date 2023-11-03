@@ -348,13 +348,11 @@ def update_db() -> None:
 
 if __name__ == '__main__':
     user = os.environ['USERPROFILE']
-    sender_username = 'web@yourdolphin.com'
-    sender_password = 'Dolphin!986'
+    sender_username = # Add email domain of sender
+    sender_password = # Add email password of sender
 
     recipients = [
-        'betacontrol@yourdolphin.com',
-        'joshua.garland@yourdolphin.com',
-        'joshua.murphy@yourdolphin.com',
+        # Add list of users to send email to.
     ]
 
     version_data = {
